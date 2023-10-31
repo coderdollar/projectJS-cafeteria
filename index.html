@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto JS - Darling's Dinner</title>
+
+     <!-- Favicon -->
+     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+     <!-- Link CSS -->
+     <link rel="stylesheet" href="styles/styles.css">
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+     <!-- Bootstrap Icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+     <!-- AOS -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary align-nav">
+            
+            <div class="container-fluid">
+                <img src="./img/logo.png" class="logo-nav" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>   
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" href="#">Sucursales</a>
+                    <a class="nav-link" href="#">Contacto</a>
+                    <a id="verCarrito" class="nav-link" href="#">🛒<span id="cantidadCarrito" class="cantidad-carrito"></span></a>
+                </div>
+            </div>  
+        </nav>
+    </header>
+
+    <main>
+        <section class="contenedor-header">
+            <h1>Conoce nuestro menú</h1>
+            <a href="#seccion-1">
+                <div class="scroll-down"></div>
+            </a>
+        </section>
+
+        <!-- COMPRAR PRODUCTO -->
+        <section id="comprarProducto" class="comprar-producto">
+        </section>
+
+        <!-- MODAL CONTAINER -->
+        <div id="modalContainer" class="modal-container">
+        </div>
+
+        <!-- REGULAR HTML -->
+        <div class="pre-images">
+            <h2>Breakfast - Lunch - Diner</h2>
+        </div>
+
+        <section class="final-images">
+           <img class="image-down" src="./img/2.jpg" alt="">
+           <img class="image-down" src="./img/1.jpg" alt="">
+           <img class="image-down" src="./img/3.jpg" alt="">
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-tiktok"></i>
+            <i class="bi bi-pinterest"></i>
+        </div>
+
+        <div class="textos">
+            <p>Certificado de Regalo</p>
+            <p>Bolsa de Trabajo</p>
+            <p>Sucursales</p>
+            <p>Contacto</p>
+            <p>Aviso de privacidad</p>
+        </div>
+
+    </footer>
+
+    <script src="./js/app.js"></script>
+    <script src="./js/productos.js"></script>
+    <script src="./js/"></script>
+
+    <!-- BOOT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!-- SCRIPT AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

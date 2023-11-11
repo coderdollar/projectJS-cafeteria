@@ -1,0 +1,104 @@
+[
+    {"id": 1,
+     "nombre": "Coffee", 
+     "precio": 2, 
+     "img": "https://dennysmexico.com/wp-content/uploads/2023/04/Mesa-de-trabajo-14-300x300.png",
+     "cantidad": 1
+    },
+    {
+     "id": 2,
+     "nombre": "Chocolate", 
+     "precio": 2, 
+     "img": "https://dennysmexico.com/wp-content/uploads/2023/04/Mesa-de-trabajo-3-300x300.png", 
+     "cantidad": 1 
+    }, 
+    {
+     "id": 3, 
+     "nombre": "Darling's Shake", 
+     "precio": 3, 
+     "img": "https://dennysmexico.com/wp-content/uploads/2023/04/Mesa-de-trabajo-2-300x300.png", 
+     "cantidad": 1
+    },
+    {
+     "id": 4,
+     "nombre": "Soda", 
+     "precio": 3, 
+     "img": "https://dennysmexico.com/wp-content/uploads/2023/04/Mesa-de-trabajo-13-300x300.png", 
+     "cantidad": 1
+    },
+    {
+     "id": 5, 
+     "nombre": "Cinnamon Pancakes", 
+     "precio": 8, 
+     "img": "https://dennysmexico.com/wp-content/uploads/2023/04/Mesa-de-trabajo-5-1-300x300.png", 
+     "cantidad": 1 
+    },
+    {
+     "id": 6, 
+     "nombre": "Strawberry Banana", 
+     "precio": 9, 
+     "img": "https://dennysmexico.com/wp-content/uploads/2023/04/Mesa-de-trabajo-4-1-300x300.png", 
+     "cantidad": 1
+    },
+    {
+     "id": 7,
+     "nombre": "Grand Slam", 
+     "precio": 12, 
+     "img": "https://dennysmexico.com/wp-content/uploads/2023/04/Mesa-de-trabajo-3-1-300x300.png", 
+     "cantidad": 1
+    },
+    {
+     "id": 8, 
+     "nombre": "Darling's Omelette", 
+     "precio": 11, 
+     "img": "https://dennysmexico.com/wp-content/uploads/2023/04/Mesa-de-trabajo-11-1-300x300.png", 
+     "cantidad": 1 
+    },
+    {
+     "id": 9, 
+     "nombre": "Bacon Burger", 
+     "precio": 13, 
+     "img": "https://dennysmexico.com/wp-content/uploads/2023/05/Mesa-de-trabajo-3-300x300.png", 
+     "cantidad": 1
+    },
+    {
+     "id": 10, 
+     "nombre": "BLT Sandwich", 
+     "precio": 10, "img": "https://dennysmexico.com/wp-content/uploads/2023/05/Mesa-de-trabajo-18-300x300.png", "cantidad": 1
+    },
+    {
+     "id": 11,
+     "nombre": "Chicken Tenders", 
+     "precio": 10, 
+     "img": "https://dennysmexico.com/wp-content/uploads/2023/03/chicken-tenders-300x300.png", 
+     "cantidad": 1
+    },
+    {
+     "id": 12, 
+     "nombre": "Double Burger", 
+     "precio": 15, 
+     "img": "https://dennysmexico.com/wp-content/uploads/2023/05/Mesa-de-trabajo-14-300x300.png", 
+     "cantidad": 1
+    },
+    {
+     "id": 13, 
+     "nombre": "Superbird", 
+     "precio": 12, 
+     "img": "https://dennysmexico.com/wp-content/uploads/2023/05/Mesa-de-trabajo-15-300x300.png", 
+     "cantidad": 1
+    },
+    {
+     "id": 14, 
+     "nombre": "Apple Pie", 
+     "precio": 6, 
+     "img": "https://dennysmexico.com/wp-content/uploads/2023/05/Mesa-de-trabajo-3-1-300x300.png", 
+     "cantidad": 1
+    },
+    {
+     "id": 15, 
+      "nombre": "Cookie", 
+      "precio": 4, 
+      "img": "https://dennysmexico.com/wp-content/uploads/2023/05/Mesa-de-trabajo-6-1-300x300.png", 
+      "cantidad": 1
+    }
+]
